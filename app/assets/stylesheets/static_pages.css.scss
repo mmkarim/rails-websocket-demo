@@ -1,0 +1,33 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  padding-top: 90px;
+}
+
+h2 {
+  line-height: 1;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+#box {
+  background: #f4f4f4;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 400px;
+  padding: 15px;
+  overflow-y: auto;
+  width: 90%;
+}
+
+input{
+  border: 1px solid #bbb;
+  width: 90%;
+  margin-top: 15px;
+  height: auto !important;
+  padding: 5px;
+}
